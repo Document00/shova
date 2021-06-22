@@ -1,0 +1,232 @@
+
+/*=====Difoult css Start=====  */
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+ul,li{
+  list-style: none;
+}
+.mid{
+  max-width: 80%;
+  margin: auto;
+}
+.clear-fix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.Tcenter{
+  text-align: center;
+}
+.Tleft{
+  text-align: left;
+}
+.Tright{
+  text-align: right;
+}
+/*=====Difoult css end=====  */
+
+
+
+
+
+
+body{
+  background-color: lightblue;
+}
+
+
+
+
+
+
+/*=====Header css Start=====  */
+.header{
+  background-color: #1abc9c;
+}
+.header .logo{
+  float: left;
+}
+.header .logo img{
+  max-width: 107px;
+  margin-top: 9px;
+}
+.header .menu{
+  float: right;
+}
+.header .menu ul{
+  text-align: center;
+}
+.header .menu ul li:nth-child(1){
+  border-left: 1px solid #ddd;
+}
+.header .menu ul li{
+  display: inline-block;
+  margin-left: -4px;
+}
+.header .menu ul li a{
+  color: #fff;
+  padding: 16px 20px;
+  line-height: 52px;
+  border-right: 1px solid #ddd;
+}
+.header .menu ul li a:hover{
+  background-color: #16a085;
+
+}
+
+/*=====Header css end=====  */
+
+
+
+
+
+
+/*=====Slider css Start=====  */
+.slider {
+  padding: 200px;
+  background-image: url(https://media.istockphoto.com/photos/picturesque-morning-in-plitvice-national-park-colorful-spring-scene-picture-id1093110112?k=6&m=1093110112&s=612x612&w=0&h=uBH7Rj-Ew_ixjunRrD_U7alq2ZUPJ_5XgMpe9xO52QQ=);
+  background-size: cover;
+  background-position: top;
+}
+.slider h2 {
+  color: #fff;
+  background-color: rgba(26, 188, 156,.3);
+  width: 271px;
+  margin: auto;
+  border-radius: 5px;
+  padding: 10px;
+}
+.slider h1 {
+  background-color: rgba(49, 194, 238, 0.3);
+  width: 350px;
+  padding: 8px;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: rgb(255, 7, 7);
+}
+/*=====Slider css end=====  */
+
+
+
+
+
+
+/*=====About css Start=====  */
+.about h1 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.about p{
+  width: 500px;
+  margin: auto;
+}
+/*=====About css end=====  */
+
+
+
+
+
+
+/*=====Service css Start=====  */
+.s-item {
+  width: 31.3%;
+  padding: 16px 54px;
+  float: left;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 24px;
+}
+.s-item span {
+  font-size: 30px;
+  background: green;
+  padding: 9px 17px;
+  border-radius: 20px 0px;
+}
+.s-item p {
+  font-size: 14px;
+  color: red;
+}
+.s-item h2 {
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+/*=====Service css end=====  */
+
+
+
+
+
+
+/*=====Blog css Start=====  */
+.blog{
+  margin-top: 30px;
+}
+
+.blog-left-conteiner{
+  width: 70%;
+  float: left;
+}
+.bloger {
+  margin-top: 20px;
+}
+.bloger img{
+  width: 240px;
+  float: left;
+  margin-right: 10px;
+}
+.bloger p{
+ 
+  text-align: justify;
+}
+
+.blog-right-notification{
+  width: 25%;
+  float: right;
+}
+.blog-right-notification h1{
+  color: #1abc9c;
+  margin-top: 20px;
+}
+.blog-right-notification ul li{
+  border: 1px solid #ddd;
+  padding: 1px 1px;
+}
+/*=====Blog css end=====  */
+
+
+
+
+
+
+/*=====Footer css Start=====  */
+.footer{
+  background-color: #2c3e50;
+  margin-top: 20px;
+  padding: 3px 0px
+}
+.footer .copy-right{
+  float: left;
+  color: #fff;
+  padding:-5px;
+  font-size: 10px;
+  word-spacing: 3px;
+}
+.footer .social-icon{
+  float: right;
+}
+.footer .social-icon a{
+ color: #fff;
+ font-size: 14px;
+ margin-top: 5px;
+ margin-right: 5px;
+}
+
+/*=====Footer css end=====  */
